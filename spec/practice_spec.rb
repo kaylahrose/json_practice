@@ -1,20 +1,12 @@
 require './lib/practice'
 
-# Welcome to the team! We have a real-world coding challenge rooted in the ____ domain for
-#  you. We're excited to see your skills in action and how you approach problem-solving.
-#  Here's the task:
-
 # Task: JSON Calculation
-
-# As part of our application, we often deal with JSON data representing offers and their 
-# corresponding cashback values. To make this process more efficient, we need you to write 
-# a Ruby function that performs a simple calculation on this JSON and outputs new JSON
+# write a Ruby function that performs a calculation on this JSON and outputs new JSON
 #  with the updated cashback values.
 
-# Here's a brief overview of the JSON structure:
+# overview of JSON structure:
 
 # json
-# Copy code
 # {
 #   "offers": [
 #     {
@@ -32,7 +24,8 @@ require './lib/practice'
 #     ...
 #   ]
 # }
-# Your task is to write a Ruby function called apply_discount(json, percentage) that takes
+
+# write a Ruby function called apply_discount(json, percentage) that takes
 #  in two parameters:
 
 # json: The input JSON containing the offers and cashback values in the format shown above.
@@ -131,7 +124,7 @@ RSpec.describe 'practice' do
           },
           {
             "name": "Offer 3",
-            "cashback": 14
+            "cashback": 13
           }
         ]
       }
