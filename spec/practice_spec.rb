@@ -1,10 +1,15 @@
 require './lib/practice'
 
-# Welcome to the team! We have a real-world coding challenge rooted in the ____ domain for you. We're excited to see your skills in action and how you approach problem-solving. Here's the task:
+# Welcome to the team! We have a real-world coding challenge rooted in the ____ domain for
+#  you. We're excited to see your skills in action and how you approach problem-solving.
+#  Here's the task:
 
 # Task: JSON Calculation
 
-# As part of our application, we often deal with JSON data representing offers and their corresponding cashback values. To make this process more efficient, we need you to write a Ruby function that performs a simple calculation on this JSON and outputs new JSON with the updated cashback values.
+# As part of our application, we often deal with JSON data representing offers and their 
+# corresponding cashback values. To make this process more efficient, we need you to write 
+# a Ruby function that performs a simple calculation on this JSON and outputs new JSON
+#  with the updated cashback values.
 
 # Here's a brief overview of the JSON structure:
 
@@ -27,13 +32,15 @@ require './lib/practice'
 #     ...
 #   ]
 # }
-# Your task is to write a Ruby function called apply_discount(json, percentage) that takes in two parameters:
+# Your task is to write a Ruby function called apply_discount(json, percentage) that takes
+#  in two parameters:
 
 # json: The input JSON containing the offers and cashback values in the format shown above.
 # percentage: The discount percentage to be applied to each cashback value.
 # The function should perform the following calculation for each offer:
 
-# Calculate the new cashback value by applying the provided percentage discount to the original cashback.
+# Calculate the new cashback value by applying the provided percentage discount to the 
+# original cashback.
 # Round the new cashback value to the nearest integer.
 # The function should then generate new JSON with the updated cashback values and return it.
 
@@ -79,9 +86,12 @@ require './lib/practice'
 # #     }
 # #   ]
 # # }
-# Please implement the apply_discount function, keeping in mind that we expect you to write clean, efficient, and maintainable code. Don't forget to handle any edge cases you might encounter.
+# Please implement the apply_discount function, keeping in mind that we expect you to write
+#  clean, efficient, and maintainable code. Don't forget to handle any edge cases you might
+#  encounter.
 
-# Feel free to ask any questions if you need further clarification. Happy coding! We're looking forward to seeing your solution.
+# Feel free to ask any questions if you need further clarification. Happy coding! We're
+#  looking forward to seeing your solution.
 
 RSpec.describe 'practice' do
   it 'calculates the total books' do
